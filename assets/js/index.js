@@ -1,6 +1,6 @@
 $(function () {
   getUserInfo();
-  $('#quit').on('click', function () {
+  $('#btnLogout').on('click', function () {
     layer.confirm('is not?', { icon: 3, title: '提示' }, function (index) {
       //do something
       localStorage.removeItem('token')
